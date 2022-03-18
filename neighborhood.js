@@ -5,7 +5,7 @@ const restaurants = [
   "Sato Brewpub",
 ]("#btn").click(function () {
   let randomPlace = restaurants[Math.floor(Math.random() * restaurants.length)]
-  document.getElementById("randomChoice").innerHTML = picker(randomChoice)
+  document.getElementById("randomChoice").innerHTML = picker(randomPlace)
 })
 
 btn.addEventListener("click", function () {
