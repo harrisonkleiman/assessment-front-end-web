@@ -1,4 +1,3 @@
-
 color.addEventListener("click", function () {
   alert("My favorite color is sage green!")
 })

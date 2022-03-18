@@ -3,13 +3,11 @@ const restaurants = [
   "99 Fast Food",
   "Bocce Club Pizza",
   "Sato Brewpub",
-]
-  
-  ("#btn").click(function () {
+]("#btn").click(function () {
   let randomPlace = restaurants[Math.floor(Math.random() * restaurants.length)]
-  document.getElementById("randomChoice").innerHTML = picker(randomItem)
+  document.getElementById("randomChoice").innerHTML = picker(randomChoice)
+})
 
-  function picker() {
-    alert(randomPlace) 
-  }
+btn.addEventListener("click", function () {
+  alert(randomPlace)
 })
